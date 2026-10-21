@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { onValue } from "firebase/database";
 import { machineRef, connectedRef } from "./firebase/firebaseConfig";
 
@@ -10,6 +10,7 @@ import MachineComponents from "./components/MachineComponents";
 import UltrasonicMonitor from "./components/UltrasonicMonitor";
 import DistanceChart from "./components/DistanceChart";
 import RawFirebaseData from "./components/RawFirebaseData";
+import AiDataAnalyzer from "./components/analyzer/AiDataAnalyzer";
 
 // Icons
 import {
@@ -19,8 +20,6 @@ import {
   Volume2,
   AlertCircle,
   RefreshCw,
-  Cpu,
-  ShieldAlert,
 } from "lucide-react";
 
 export default function App() {
@@ -29,6 +28,7 @@ export default function App() {
   const [lastUpdateTimestamp, setLastUpdateTimestamp] = useState(null);
   const [lastUpdateAgo, setLastUpdateAgo] = useState("");
   const [updatePing, setUpdatePing] = useState(false);
+  const [activeTab, setActiveTab] = useState("dashboard"); // "dashboard" or "analyzer"
 
   // Client-side distance history for the graph
   const [distanceHistory, setDistanceHistory] = useState([]);
@@ -143,15 +143,20 @@ export default function App() {
           isConnected={isConnected}
           lastUpdateTime={lastUpdateAgo}
           updatePing={updatePing}
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
         />
       </div>
 
       {/* Main Content Area */}
       <main className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
 
-        
-        {/* Offline / Waiting Banner if Firebase or Data not ready */}
-        {!isAvailable && (
+        {activeTab === "analyzer" ? (
+          <AiDataAnalyzer />
+        ) : (
+          <>
+            {/* Offline / Waiting Banner if Firebase or Data not ready */}
+            {!isAvailable && (
           <div className="rounded-2xl border border-amber-300 bg-amber-50 p-4 flex items-center justify-between text-amber-900 shadow-xs">
             <div className="flex items-center gap-3">
               <AlertCircle className="w-5 h-5 text-amber-600 shrink-0" />
@@ -323,6 +328,8 @@ export default function App() {
         <section aria-label="Raw Firebase Payload">
           <RawFirebaseData rawData={rawData} />
         </section>
+          </>
+        )}
 
       </main>
 

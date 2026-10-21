@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-10-20T10:30:00Z",
+    "led_status": true,
+    "led_mode": "SOLID",
+    "brightness_pct": 100,
+    "state_meaning": "ACTIVE_RUNNING"
+  },
+  {
+    "timestamp": "2026-10-20T10:30:10Z",
+    "led_status": true,
+    "led_mode": "SOLID",
+    "brightness_pct": 100,
+    "state_meaning": "ACTIVE_RUNNING"
+  },
+  {
+    "timestamp": "2026-10-20T10:30:20Z",
+    "led_status": true,
+    "led_mode": "BLINKING",
+    "blink_frequency_hz": 1.5,
+    "brightness_pct": 80,
+    "state_meaning": "IDLE_WARNING"
+  },
+  {
+    "timestamp": "2026-10-20T10:30:30Z",
+    "led_status": true,
+    "led_mode": "BLINKING",
+    "blink_frequency_hz": 1.5,
+    "brightness_pct": 80,
+    "state_meaning": "IDLE_WARNING"
+  },
+  {
+    "timestamp": "2026-10-20T10:30:40Z",
+    "led_status": false,
+    "led_mode": "OFF",
+    "brightness_pct": 0,
+    "state_meaning": "POWER_DOWN"
+  },
+  {
+    "timestamp": "2026-10-20T10:30:50Z",
+    "led_status": true,
+    "led_mode": "SOLID",
+    "brightness_pct": 100,
+    "state_meaning": "ACTIVE_RUNNING"
+  }
+]

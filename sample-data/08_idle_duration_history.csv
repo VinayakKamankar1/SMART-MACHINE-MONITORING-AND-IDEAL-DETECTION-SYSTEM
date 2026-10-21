@@ -1,0 +1,8 @@
+timestamp,machine_status,event_type,duration_seconds,cumulative_idle_seconds,operator_note
+2026-10-20T09:00:00Z,RUNNING,SHIFT_START,600,0,Batch #1 started on Pen Refill Line A
+2026-10-20T09:10:00Z,MACHINE IDLE,TOOL_REMOVED,240,240,Pen cartridge swap and alignment
+2026-10-20T09:14:00Z,RUNNING,TOOL_INSERTED,900,240,Batch #2 refilling 100 units
+2026-10-20T09:29:00Z,MACHINE IDLE,INK_RESERVOIR_CHECK,420,660,Manual ink inspection by OP-401
+2026-10-20T09:36:00Z,RUNNING,RESUME_OPERATION,720,660,Batch #3 refilling
+2026-10-20T09:48:00Z,MACHINE IDLE,WORKPIECE_CLEARING,180,840,Finished product bin clearance
+2026-10-20T09:51:00Z,RUNNING,CYCLE_RESTART,540,840,Batch #4 active dispensing

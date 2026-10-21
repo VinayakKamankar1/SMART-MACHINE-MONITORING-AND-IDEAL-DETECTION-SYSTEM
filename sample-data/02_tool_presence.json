@@ -1,0 +1,86 @@
+[
+  {
+    "timestamp": "2026-10-20T10:05:00Z",
+    "distance_cm": 12.3,
+    "object_detected": true,
+    "confidence_score": 0.98,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:02Z",
+    "distance_cm": 11.9,
+    "object_detected": true,
+    "confidence_score": 0.99,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:04Z",
+    "distance_cm": 12.5,
+    "object_detected": true,
+    "confidence_score": 0.97,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:06Z",
+    "distance_cm": 14.2,
+    "object_detected": true,
+    "confidence_score": 0.92,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:08Z",
+    "distance_cm": 17.8,
+    "object_detected": false,
+    "confidence_score": 0.95,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:10Z",
+    "distance_cm": 23.4,
+    "object_detected": false,
+    "confidence_score": 0.99,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:12Z",
+    "distance_cm": 26.1,
+    "object_detected": false,
+    "confidence_score": 0.99,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:14Z",
+    "distance_cm": 25.8,
+    "object_detected": false,
+    "confidence_score": 0.99,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:16Z",
+    "distance_cm": 18.2,
+    "object_detected": false,
+    "confidence_score": 0.94,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:18Z",
+    "distance_cm": 13.1,
+    "object_detected": true,
+    "confidence_score": 0.96,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:20Z",
+    "distance_cm": 12.0,
+    "object_detected": true,
+    "confidence_score": 0.98,
+    "threshold_limit_cm": 15.0
+  },
+  {
+    "timestamp": "2026-10-20T10:05:22Z",
+    "distance_cm": 11.6,
+    "object_detected": true,
+    "confidence_score": 0.99,
+    "threshold_limit_cm": 15.0
+  }
+]

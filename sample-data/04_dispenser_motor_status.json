@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2026-10-20T10:20:00Z",
+    "motor_status": true,
+    "motor_state": "ON",
+    "rpm": 120,
+    "current_draw_ma": 340,
+    "duty_cycle_pct": 80
+  },
+  {
+    "timestamp": "2026-10-20T10:20:05Z",
+    "motor_status": true,
+    "motor_state": "ON",
+    "rpm": 122,
+    "current_draw_ma": 345,
+    "duty_cycle_pct": 80
+  },
+  {
+    "timestamp": "2026-10-20T10:20:10Z",
+    "motor_status": true,
+    "motor_state": "ON",
+    "rpm": 118,
+    "current_draw_ma": 338,
+    "duty_cycle_pct": 80
+  },
+  {
+    "timestamp": "2026-10-20T10:20:15Z",
+    "motor_status": false,
+    "motor_state": "OFF",
+    "rpm": 0,
+    "current_draw_ma": 12,
+    "duty_cycle_pct": 0
+  },
+  {
+    "timestamp": "2026-10-20T10:20:20Z",
+    "motor_status": false,
+    "motor_state": "OFF",
+    "rpm": 0,
+    "current_draw_ma": 12,
+    "duty_cycle_pct": 0
+  },
+  {
+    "timestamp": "2026-10-20T10:20:25Z",
+    "motor_status": false,
+    "motor_state": "OFF",
+    "rpm": 0,
+    "current_draw_ma": 11,
+    "duty_cycle_pct": 0
+  },
+  {
+    "timestamp": "2026-10-20T10:20:30Z",
+    "motor_status": true,
+    "motor_state": "ON",
+    "rpm": 121,
+    "current_draw_ma": 342,
+    "duty_cycle_pct": 80
+  },
+  {
+    "timestamp": "2026-10-20T10:20:35Z",
+    "motor_status": true,
+    "motor_state": "ON",
+    "rpm": 120,
+    "current_draw_ma": 339,
+    "duty_cycle_pct": 80
+  }
+]

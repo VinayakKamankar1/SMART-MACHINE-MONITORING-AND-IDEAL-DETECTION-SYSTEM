@@ -1,0 +1,56 @@
+[
+  {
+    "timestamp": "2026-10-20T11:00:00Z",
+    "ultrasonic_distance_cm": 11.8,
+    "object_detected": true,
+    "machine_status": "RUNNING",
+    "motor_status": true,
+    "buzzer_status": false,
+    "notes": "Normal initial operation"
+  },
+  {
+    "timestamp": "2026-10-20T11:00:05Z",
+    "ultrasonic_distance_cm": 28.4,
+    "object_detected": false,
+    "machine_status": "RUNNING",
+    "motor_status": true,
+    "buzzer_status": false,
+    "notes": "ANOMALY: Distance > 15cm and object absent, but dispenser motor is ON (Protective interlock failure candidate!)"
+  },
+  {
+    "timestamp": "2026-10-20T11:00:10Z",
+    "ultrasonic_distance_cm": -4.5,
+    "object_detected": false,
+    "machine_status": "UNKNOWN",
+    "motor_status": false,
+    "buzzer_status": true,
+    "notes": "ANOMALY: Physical sensor impossible negative distance reading (-4.5 cm sensor glitch/noise)"
+  },
+  {
+    "timestamp": "2026-10-20T11:00:15Z",
+    "ultrasonic_distance_cm": null,
+    "object_detected": null,
+    "machine_status": "MACHINE IDLE",
+    "motor_status": false,
+    "buzzer_status": false,
+    "notes": "ANOMALY: Null sensor reading dropped packet during idle"
+  },
+  {
+    "timestamp": "2026-10-20T11:00:20Z",
+    "ultrasonic_distance_cm": 450.0,
+    "object_detected": false,
+    "machine_status": "MACHINE IDLE",
+    "motor_status": false,
+    "buzzer_status": false,
+    "notes": "ANOMALY: HC-SR04 timeout / out of maximum range reading (450 cm)"
+  },
+  {
+    "timestamp": "2026-10-20T11:00:25Z",
+    "ultrasonic_distance_cm": 12.0,
+    "object_detected": true,
+    "machine_status": "MACHINE IDLE",
+    "motor_status": false,
+    "buzzer_status": true,
+    "notes": "ANOMALY: Workpiece present at 12cm but buzzer remains sounding while machine stays idle"
+  }
+]

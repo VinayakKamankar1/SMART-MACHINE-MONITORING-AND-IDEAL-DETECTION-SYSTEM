@@ -1,0 +1,17 @@
+timestamp,ultrasonic_distance_cm,object_detected,machine_status,motor_status,led_status,buzzer_status
+2026-10-20T10:35:00Z,11.5,true,RUNNING,true,true,false
+2026-10-20T10:35:02Z,11.8,true,RUNNING,true,true,false
+2026-10-20T10:35:04Z,12.2,true,RUNNING,true,true,false
+2026-10-20T10:35:06Z,12.0,true,RUNNING,true,true,false
+2026-10-20T10:35:08Z,14.6,true,RUNNING,true,true,false
+2026-10-20T10:35:10Z,18.4,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:12Z,22.0,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:14Z,25.3,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:16Z,24.9,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:18Z,25.1,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:20Z,19.2,false,MACHINE IDLE,false,true,true
+2026-10-20T10:35:22Z,13.8,true,RUNNING,true,true,false
+2026-10-20T10:35:24Z,12.1,true,RUNNING,true,true,false
+2026-10-20T10:35:26Z,11.9,true,RUNNING,true,true,false
+2026-10-20T10:35:28Z,11.7,true,RUNNING,true,true,false
+2026-10-20T10:35:30Z,12.4,true,RUNNING,true,true,false
